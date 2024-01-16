@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>BoxMine World - Afk Login</title>
+    <link rel="stylesheet" href="login.css" />
+    <link rel="shortcut icon" href="https://boxmineworld.com/img/favicon.png" />
+  </head>
+
+  <body>
+    <form action="/auth" method="post">
+      <h2>Iniciar Sesion</h2>
+
+      <section class="cx rescx">
+        <input type="text" name="email" id="email" required />
+        <span>Correo</span>
+      </section>
+
+      <section class="cx rescx">
+        <input type="password" name="password" id="password" required />
+        <span>Contraseña</span>
+      </section>
+
+      <input type="submit" value="Login" class="button" />
+    </form>
+    <div class="only">
+      <button class="returnButton"><a href="./index.html">Regresar</a></button>
+    </div>
+  </body>
+</html>
